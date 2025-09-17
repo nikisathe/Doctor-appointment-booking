@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom';
 import { StethoscopeIcon } from '../components/Icons';
 import { DOCTORS, SPECIALIZATIONS } from '../services/mockData';
 import DoctorCard from '../components/DoctorCard';
+import doctorImg from "../public/vecteezy_ai-generated-a-smiling-doctor-with-glasses-and-a-white-lab_41408858.png";
+
+
 
 const FeatureCard: React.FC<{ icon: React.ReactNode; title: string; description: string }> = ({ icon, title, description }) => (
   <div className="bg-white p-6 rounded-lg shadow-md text-center">
@@ -47,6 +50,7 @@ const Home: React.FC = () => {
             </div>
           </div>
           <div className="md:w-1/2 mt-10 md:mt-0">
+            <img src={doctorImg} alt="doctor" />
             <img 
   src="public/vecteezy_ai-generated-a-smiling-doctor-with-glasses-and-a-white-lab_41408858.png" 
   alt="Doctor and Patient" 
