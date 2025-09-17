@@ -1,0 +1,5 @@
+{
+  "name": "DocBook: Doctor Appointment Booking",
+  "description": "A modern, user-friendly web application for finding doctors and booking appointments. Users can search for doctors by specialization, view detailed profiles, and manage their appointments easily.",
+  "requestFramePermissions": []
+}
