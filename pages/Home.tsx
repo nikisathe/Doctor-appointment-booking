@@ -48,7 +48,7 @@ const Home: React.FC = () => {
           </div>
           <div className="md:w-1/2 mt-10 md:mt-0">
             <img 
-  src="pages/vecteezy_ai-generated-a-smiling-doctor-with-glasses-and-a-white-lab_41408858.png" 
+  src="public/vecteezy_ai-generated-a-smiling-doctor-with-glasses-and-a-white-lab_41408858.png" 
   alt="Doctor and Patient" 
   className="w-full max-w-md md:max-w-lg lg:max-w-xl h-auto rounded-lg shadow-2xl object-cover mx-auto"
 />
